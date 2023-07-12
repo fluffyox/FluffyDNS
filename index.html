@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../icon.png?asfd">
+<script src="utils.js"></script>
+  <script src="debounce.js"></script>
+  <script src="formatDate.js"></script>
+  <script src="extractDomain.js"></script>
+  <script src="performDNSQuery.js"></script>
+  <script src="main.js"></script>
+  <title>DNS查询</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <img class="center logo" width="237" src="/logo.svg"/>
+    <div id="search-form">
+      <input type="text" id="domain-input" placeholder="请输入域名" spellcheck="false">
+      <button id="query-button">查询</button>
+    </div>
+    <table id="result-table">
+      <thead>
+        <tr>
+          <th>域名</th>
+          <th>类型</th>
+          <th>TTL</th>
+          <th>过期时间</th>
+          <th>数据</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <footer>
+    <a style="color: #888;text-decoration: none;size:8px;font-size: 14px;" href="https://github.com/FluffyOx/FluffyDNS" target="_blank" rel="nofollow" class="slide" hotrep="hp.footer.bottom.miitbeian" style="margin-right: 5px;">FluffyDNS V1.0</a>
+  </footer>
+</body>
+</html>
