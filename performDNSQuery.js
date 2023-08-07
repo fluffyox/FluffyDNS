@@ -134,9 +134,9 @@ function performDNSQuery() {
 
       var nameCell = document.createElement("td");
       var name = answer.name;
-      if (name.charAt(name.length - 1) === '.') {
-        name = name.slice(0, -1); // 去除最后一位点号
-      }
+    //   if (name.charAt(name.length - 1) === '.') {
+    //     name = name.slice(0, -1); // 去除最后一位点号
+    //   }
       nameCell.innerText = name;
       row.appendChild(nameCell);
 
@@ -163,8 +163,10 @@ function performDNSQuery() {
     }
 
     table.appendChild(tbody);
-
-    var newUrl = window.location.origin + "/?name=" + encodeURIComponent(domain);
+    
+    var newUrl = window.location.origin + "/" + encodeURIComponent(domain);
+    
+    
     window.history.pushState(null, "", newUrl);
   }, function(status) {
     console.log("请求失败。状态码：" + status);
