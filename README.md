@@ -19,7 +19,7 @@
 <a href="#简介">简介</a> &nbsp;&bull;&nbsp;
 <a href="#使用">使用</a> &nbsp;&bull;&nbsp;
 <a href="#特性">特性</a> &nbsp;&bull;&nbsp;
-<a href="#打包">特性</a> &nbsp;&bull;&nbsp;
+<a href="#打包">打包</a> &nbsp;&bull;&nbsp;
 <a href="#部署">部署</a>
 </p>
 
