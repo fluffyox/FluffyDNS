@@ -109,10 +109,20 @@ h1 {
 
 footer {
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   left: 0;
   right: 0;
   text-align: center;
   background-color: #f5f5f5;
   padding: 10px 0;
+}
+
+.container span {
+  margin-left: 10px;
+  white-space: nowrap; /* 设置不换行 */
+}
+.container a {
+  text-decoration: none;
+  color: #bbbbbb;
+  font-size: 10px;
 }
