@@ -19,6 +19,7 @@
 <a href="#简介">简介</a> &nbsp;&bull;&nbsp;
 <a href="#使用">使用</a> &nbsp;&bull;&nbsp;
 <a href="#特性">特性</a> &nbsp;&bull;&nbsp;
+<a href="#打包">打包</a> &nbsp;&bull;&nbsp;
 <a href="#部署">部署</a>
 </p>
 
@@ -59,6 +60,9 @@ FluffyDNS是一个DNS记录查询工具。支持web界面以及curl命令行。
 1. 使用原生html js css编写。
 2. 识别9000多种域名后缀，支持域名查询广泛。
 3. 支持用户使用curl命令行进行交互。
+
+## 打包
+参考[Tauri官方文档](https://tauri.app)
 
 ## 部署
 **这里以宝塔为例**
