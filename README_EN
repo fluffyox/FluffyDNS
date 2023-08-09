@@ -25,12 +25,12 @@
 </p>
 
 <div align="center">
-  <a href="https://github.com/FluffyOx/FluffyDNS/README_EN.md">English</a>
+  <a href="https://github.com/FluffyOx/FluffyDNS/README.md">中文</a>
 </div>
 
 ## Introduction
 
-FluffyDNS is a DNS record query tool. It supports both a web interface and the curl command line.
+FluffyDNS is a tool for querying DNS records. It supports both a web interface and the curl command line.
 
 ## Usage
 
