@@ -25,7 +25,7 @@
 
 
 <div align="center">
-  <a href="https://github.com/FluffyOx/FluffyDNS/README_EN.md">English</a>
+  <a href="https://github.com/FluffyOx/FluffyDNS/blob/main/README_EN.md">English</a>
 </div>
 
 ## 简介
